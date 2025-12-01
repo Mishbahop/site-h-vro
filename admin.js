@@ -74,9 +74,6 @@ class GlobalKeyAdmin {
                                    class="w-full pl-12 pr-4 py-4 bg-gray-800/50 border border-gray-700 rounded-lg text-white text-center focus:border-blue-500 focus:outline-none"
                                    autocomplete="off">
                         </div>
-                        <p class="text-xs text-gray-500 mt-2 text-center">
-                            Default password: admin123
-                        </p>
                     </div>
                     
                     <div class="space-y-3">
@@ -179,7 +176,7 @@ class GlobalKeyAdmin {
                         redirect_url: 'https://your-site.com/purchase',
                         auto_expire: true,
                         enable_logging: true,
-                        admin_password: 'admin123',
+                        admin_password: 'admin@@123',
                         default_prices: this.defaultPrices
                     },
                     keys: [
