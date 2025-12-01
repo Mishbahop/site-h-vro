@@ -190,7 +190,7 @@ const GLOBAL_KEY_SYSTEM = (function() {
         } catch (error) {
             console.error('Settings fetch error:', error);
             return {
-                redirect_url: 'https://your-site.com/purchase',
+                redirect_url: 'https://t.me/mishbahop1',
                 auto_expire: true,
                 enable_logging: true
             };
@@ -235,13 +235,6 @@ const GLOBAL_KEY_SYSTEM = (function() {
                     <div class="bg-gray-800/30 rounded-lg p-4 mb-6 border border-gray-700/50">
                         <div class="flex items-start space-x-3">
                             <i class="fas fa-info-circle text-purple-400 mt-1"></i>
-                            <div>
-                                <h4 class="text-white font-medium mb-1">Global Key System</h4>
-                                <p class="text-gray-400 text-sm">
-                                    This key works on all devices. One key = unlimited devices.
-                                    Key expires after purchased duration.
-                                </p>
-                            </div>
                         </div>
                     </div>
                     
@@ -263,7 +256,7 @@ const GLOBAL_KEY_SYSTEM = (function() {
                     <!-- Footer Links -->
                     <div class="mt-6 pt-4 border-t border-gray-800">
                         <div class="text-center space-y-2">
-                            <a href="https://your-site.com/purchase" 
+                            <a href="https://t.me/mishbahop1" 
                                class="block text-purple-400 hover:text-purple-300 text-sm">
                                 <i class="fas fa-shopping-cart mr-1"></i>Purchase Access Key
                             </a>
@@ -491,7 +484,7 @@ const GLOBAL_KEY_SYSTEM = (function() {
                     </div>
                     
                     <div class="space-y-3">
-                        <button onclick="window.location.href='https://your-site.com/purchase'" 
+                        <button onclick="window.location.href='https://t.me/mishbahop1'" 
                                 class="w-full py-3 bg-gradient-to-r from-red-600 to-orange-600 text-white rounded-lg hover:from-red-700 hover:to-orange-700 transition">
                             <i class="fas fa-shopping-cart mr-2"></i>Renew Access
                         </button>
@@ -601,7 +594,7 @@ function createFallbackKeyDatabase() {
         const fallbackData = {
             version: '1.0',
             settings: {
-                redirect_url: 'https://your-site.com/purchase',
+                redirect_url: 'https://t.me/mishbahop1',
                 auto_expire: true,
                 enable_logging: true,
                 admin_password: 'admin123'
@@ -1667,7 +1660,7 @@ function createKeyStatusBar() {
         <div class="container mx-auto px-4 flex items-center justify-between">
             <div class="flex items-center">
                 <i class="fas fa-key mr-2"></i>
-                <span>Global Key Active | </span>
+                <span>Key Active | </span>
                 <span id="keyInfo" class="ml-2"></span>
             </div>
             <button id="statusBarLogoutBtn" class="text-xs bg-white/20 px-3 py-1 rounded hover:bg-white/30">
